@@ -1,4 +1,4 @@
-# ESP32 UWB DW3000 (under development)
+# ESP32 UWB DW3000
 
 The DW3000 library in this repository was developed by NConcepts.
 
