@@ -4,6 +4,8 @@ The DW3000 library in this repository was developed by NConcepts.
 
 This project uses MakerFabs DW3000 UWB ESP32 modules.
 
+This code is written for our [work]((https://www.arxiv.org/abs/2505.09393)) "UMotion: Uncertainty-driven Human Motion Estimation from Inertial and Ultra-wideband Units".
+
 ## Description
 
 Anchor-tag (AT): measuring the distance from one tag to multiple anchors
@@ -42,3 +44,25 @@ src
     - DM: `env:dm_sstwr/dstwr_u<1-6>`
 3. Modify `NUM_NODES` and `INTERVAL` in `uwb.h`
 4. Upload the code `pio run -e <env name>` to each device
+
+## Citation
+
+If you find this code useful in your research, please cite:
+
+```bibtex
+@inproceedings{liu2025umotion,
+  title={UMotion: Uncertainty-driven Human Motion Estimation from Inertial and Ultra-wideband Units},
+  author={Liu, Huakun and Ota, Hiroki and Wei, Xin and Hirao, Yutaro and Perusquia-Hernandez, Monica and Uchiyama, Hideaki and Kiyokawa, Kiyoshi},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={7085--7094},
+  year={2025}
+}
+```
+
+## TODO
+
+- [ ] IMU (BNO086)-UWB (DW3000) sensing
+
+## Misc
+
+Note: If you encounter any issues or have questions, feel free to open an issue. You may also contact me via the email address: liu.huakun.li0@is.naist.jp.
