@@ -4,7 +4,7 @@ The DW3000 library in this repository was developed by NConcepts.
 
 This project uses MakerFabs DW3000 UWB ESP32 modules.
 
-This code is written for our [work]((https://www.arxiv.org/abs/2505.09393)) "UMotion: Uncertainty-driven Human Motion Estimation from Inertial and Ultra-wideband Units".
+This code is written for our [work](https://www.arxiv.org/abs/2505.09393) "UMotion: Uncertainty-driven Human Motion Estimation from Inertial and Ultra-wideband Units".
 
 ## Description
 
